@@ -18,7 +18,7 @@ import java.util.logging.Logger;
  */
 public class CreateDataBase {
      public static void run(){
-          String sql = "CREATE TABLE Depto(id_depto integer,nom_depto varchar(40), PRIMARY KEY(id_depto))";
+          String sql = "CREATE TABLE Students(sid integer,first varchar(40), last varchar(40), email varchar(30), PRIMARY KEY(sid))";
           Connection connection = null;
             try {
                 connection = Conexion.getConnection();

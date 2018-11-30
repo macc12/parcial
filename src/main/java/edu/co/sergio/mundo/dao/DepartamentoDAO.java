@@ -12,20 +12,7 @@ import java.net.URISyntaxException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * @author Isabel-Fabian
- * @since 12/08/2015
- * @version 2
- * Clase que permite la gestion de la tabla Depto en la base de datos.
- * 
- * CREATE TABLE Depto(
- *     id_depto integer,
- *     nom_depto varchar(40),
- *     PRIMARY KEY(id_depto)
- * );
- */
  
-
 public class DepartamentoDAO implements IBaseDatos<Departamento> {
 
 	/**

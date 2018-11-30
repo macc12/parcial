@@ -35,9 +35,7 @@ public class HelloCrunchify extends HttpServlet {
        
         //Redireccionando la informacion
         RequestDispatcher redireccion = request.getRequestDispatcher("index.jsp");
-        redireccion.forward(request, response);
-        
-        
+        redireccion.forward(request, response);        
         
         }
 }
